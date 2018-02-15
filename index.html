@@ -2,14 +2,61 @@
 <html>
 
 <head>
+    <title>Creative Project 2 - API</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Work+Sans" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script text="type/javascript" src="/script.js"></script>
 
 </head>
 
 <body>
+    <div id="titleContainer">
+        Welcome to the walmart searcher
+    </div>
 
+    <div class="searchContainer">
+        <form>
+            <div>
+                <label>Item:</label>
+                <input id="itemInput" type="text"></input>
+            </div>
+
+            <div>
+                <label>Category</label>
+                <select id="category">
+                    <option value="0"></option>
+                    <option value="1334134">Arts, Crafts & Sewing</option>
+                    <option value="91083">Auto & Tires</option>
+                    <option value="5427">Baby</option>
+                    <option value="1085666">Beauty</option>
+                    <option value="3920">Books</option>
+                    <option value="1105910">Cell Phones</option>
+                    <option value="5438">Clothing</option>
+                    <option value="3944">Electronics</option>
+                    <option value="976759">Food</option>
+                    <option value="1094765">Gifs & Registry</option>
+                    <option value="976760">Health</option>
+                    <option value="4044">Home</option>
+                    <option value="1072864">Home Improvement</option>
+                    <option value="1115193">Household Essentials</option>
+                    <option value="6197502">Industrial & Scientific</option>
+                    <option value="3891">Jewelry</option>
+                    <otpion value="4096">Movies & TV shows</otpion>
+                </select>
+            </div>
+
+            <br/>
+            <input id="searchSubmit" type="submit" value="Submit"></input>
+            <br/>
+        </form>
+
+
+        <div id="searchResults"></div>
+    </div>
 
     <footer>
-        <a class="FooterP" href="https://github.com/menyx02/creativyProject2">GitHub Repository</a>
+        <a href="https://github.com/menyx02/creativyProject2">GitHub Repository</a>
     </footer>
 </body>
 
