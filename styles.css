@@ -36,6 +36,15 @@ footer {
     width: 100%;
     background-color: #007CC1;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer a{
@@ -47,7 +56,7 @@ footer a{
 }
 
 footer img {
-    width: 15px;
-    height: 15px;
-    padding: 5px 0px 0px 5px;
+    width: 20px;
+    height: 20px;
+    padding: 5px 5px;
 }
