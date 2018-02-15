@@ -37,11 +37,6 @@ $(document).ready(function () {
                 }
 
 
-
-                console.log(json);
-                console.log(json.items[0].name);
-                console.log(json.items[0].salePrice);
-                console.log(json.items[0].shortDescription);
             }
         });
     });
