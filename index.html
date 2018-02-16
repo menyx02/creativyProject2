@@ -18,12 +18,12 @@
 
     <div id="searchContainer">
         <form>
-            <div>
+            <div class="split padded">
                 <label>Item:</label>
-                <input id="itemInput" type="text"></input>
+                <input id="itemInput" type="text" autocomplete="off"></input>
             </div>
 
-            <div>
+            <div class="split padded">
                 <label>Category</label>
                 <select id="category">
                     <option value="0"></option>
@@ -48,19 +48,18 @@
             </div>
 
             <br/>
-            <input id="searchSubmit" type="submit" value="Submit"></input>
-            <input id="newSearch" type="submit" value="New Search"></input>
-            <br/>
+            <div class="split">
+                <input id="newSearch" type="submit" value="Clear Form"></input>
+                <input id="searchSubmit" type="submit" value="Submit"></input>
+            </div>
         </form>
-
-
-        <div id="searchResults"></div>
     </div>
+    <div id="searchResults"></div>
 
     <footer>
         <div>
-                <a href="https://github.com/menyx02/creativyProject2">GitHub Repository</a>
-                <img src="/images/wheel.png">
+            <a href="https://github.com/menyx02/creativyProject2">GitHub Repository</a>
+            <img src="/images/wheel.png">
         </div>
     </footer>
 </body>

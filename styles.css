@@ -10,29 +10,86 @@
 }
 
 #titleText {
-    padding: 0px 0px 5px 15px;
+    padding: 0px 0px 5px 35px;
     margin: 0px;
 }
 
+/*#region Form*/
 #searchContainer {
-    margin: 25px 0px;
+    width: 300px;
+    margin: 25px auto;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px #616161;
 }
+
+.split {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padded {
+    padding: 8px 0px;
+}
+/*#endregion*/
+
+.centered {
+    text-align: center;
+}
+
+/*#region Item*/
+.result {
+    display: flex;
+    border-top: 1px solid #000000;
+    margin: 0px auto;
+    width: 600px;
+    padding: 16px;
+    align-items: center;
+}
+.image-holder {
+    max-height: 150px;
+}
+.result-body {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.result-title {
+    font-size: 1.5em;
+}
+.result-rating {
+    height: 12px;
+    width: 60px;
+}
+.result-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.result-price {
+    align-self: flex-end;
+    padding: 16px;
+    font-size: 2em;
+}
+/*#endregion*/
 
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    margin: 0px;
 }
 
-
-
-
-
-
-
-
-
-/*FOOTER styling **********************************/
+/*#region Footer*/
 footer {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px black;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -62,3 +119,4 @@ footer img {
     height: 20px;
     padding: 5px 5px;
 }
+/*#endregion*/
